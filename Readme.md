@@ -28,6 +28,15 @@ Board is an NxN matrix.
 
 0 <= i,j < N 
 
+For a constraint cellA > cellB, cellA and cellB are adjacent cells on board.
+
+## Board Constraint Representation: 
+
+* Set(Tuple(cellA, cellB))
+* cellA > cellB
+* cellA and cellB belong to class BoardCell
+* BoardCell represents a cell (i,j) on NxN Board matrix
+
 ## Usage
 **InputBoardWithConstraints class**: Contains getPuzzle method that prepares and returns a GameBoard class object
 **GameValidator class**: Validates the GameBoard object 
